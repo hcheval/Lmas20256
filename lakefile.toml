@@ -1,0 +1,10 @@
+name = "lmas20256"
+version = "0.1.0"
+defaultTargets = ["lmas20256"]
+
+[[lean_lib]]
+name = "Lmas20256"
+
+[[lean_exe]]
+name = "lmas20256"
+root = "Main"
