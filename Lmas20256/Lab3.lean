@@ -187,14 +187,14 @@ end
 
 section
 
-  /- Exercise 6 -/
+  /- Exercise 13 -/
   example : (∀ p : Prop, p) ↔ False := sorry
 
 
-  /- Exercise 7 -/
+  /- Exercise 14 -/
   example : ¬(∀ p q : Prop, p ∨ q → p ∧ q) := sorry
 
-  /- Exercise 8 -/
+  /- Exercise 15 -/
   example : ¬(∀ (p q : Nat → Prop), (∀ x, p x ∨ q x) → (∀ x, p x) ∨ (∀ x, q x)) := sorry
 
 end
